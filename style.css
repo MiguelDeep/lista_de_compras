@@ -1,0 +1,93 @@
+
+:root {
+  --principal: rgb(17, 86, 102);
+  --Secundaria: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+ font-family: sans-serif;
+ 
+}
+h1{
+  text-align: center;
+  color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--principal);
+  font-family: sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+input:focus{
+ box-shadow: 10px 10px 10px black;
+}
+.tela {
+  max-width: 640px;
+  margin: 50px auto;
+  background: rgb(52, 51, 51);
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+button{
+  border: none;
+  color: black;
+}
+li{
+  color: #fff;
+}
+button:hover{
+  background-color: gray;
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  transition: 1s;
+}
+ form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+}
+
+form input {
+  font-size: 34px;
+  height: 80px;
+  padding: 0 20px;
+  color: black;
+  
+}
+::placeholder{
+  color: black;
+}
+
+form input:focus {
+  outline: 1px solid var(--principal);
+}
+
+form button {
+  border: none;
+  background: var(--principal);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(----Secundaria);
+}
+input{
+  width: 450px;
+  height: 25px;
+  font-size: 1.2em;
+}
+button{
+  height: 25px;
+
+}
